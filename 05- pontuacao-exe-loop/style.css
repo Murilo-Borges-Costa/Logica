@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: bisque;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.painel{
+    /* Grades */
+    display: grid;
+    /* Colunas */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Maximo de largura */
+    max-width: 260px;
+    /* Margem */
+    margin: 30px auto;
+    /* Espaço */
+    gap: 12px;
+}
+
+.bloco{
+    /* Altura */
+    height: 60px;
+    display: flex;
+    /* Alinhar na vertical = centro */
+    align-items: center;
+    /* Alinha na horizontal = centro */
+    justify-content: center;
+    /* Negrito */
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Nivel baixo */
+.nivel-baixo{
+    background-color: aqua;
+    color: black;
+}
+
+/* Nivel médio */
+.nivel-medio{
+    background-color: rgb(0, 255, 42);
+    color: rgb(255, 0, 0);
+}
+
+/* Nivel auto */
+.nivel-auto{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #0066ff;
+    color: rgb(255, 255, 255);
+}

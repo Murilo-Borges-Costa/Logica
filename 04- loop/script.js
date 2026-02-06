@@ -47,9 +47,6 @@ for(let h = 0; h<=10; h++){
 
 // Fazer em ordem decrescente de 4 em 4 começando com a 50
 
- let mu = 0
- let div = 4
-for (let z = 50; z >= 0; z--) {
-   mu = z - div
-console.log(mu);
+for (let z = 50; z >= 0; z-=4) {
+console.log(z);
 }

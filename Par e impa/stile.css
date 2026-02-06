@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 20px;
+}
+
+.lista-quadrados{
+    display: flex;
+    gap: 4px;
+}
+
+.quadrado{
+    /* Largura */
+    width: 100px;
+    /* Altura */
+    height: 100px;
+    /* Cor de fundo */
+    /* background-color: blue; */
+}
+
+.par{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.impar{
+    background-color: aqua;
+    color: #fff;
+}
+
