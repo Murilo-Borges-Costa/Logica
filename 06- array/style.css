@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.item{
+    flex: 1;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 65px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+}
+.nome{
+    font-weight: bold;
+    font-size: 28px;
+    color: brown;
+    border-bottom: 1px solid white;
+    margin-bottom: 12px;
+}
+.nota{
+    color: rgb(255, 251, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.status{
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.reprovado{
+    color: red;
+    background-color: rgb(212, 115, 204);
+    padding: 6px;
+    border-radius: 6px;
+}
+.aprovado{
+    color: rgb(0, 255, 55);
+    background-color: rgb(115, 168, 212);
+    padding: 6px;
+    border-radius: 6px;
+}
